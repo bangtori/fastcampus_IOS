@@ -19,15 +19,22 @@ class ViewController: UIViewController {
         Quote(contents: "분노는 바보들의 가슴속에서만 살아간다.", name: "아인슈타인"),
         Quote(contents: "몇 번이라도 좋다! 이 끔찍한 생이여...다시!", name: "니체")
     ]
-    
+    var curIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.lblQuotes.text = quotes[curIndex].contents
+        self.lblName.text = quotes[curIndex].name
         // Do any additional setup after loading the view.
     }
 
     @IBAction func btnChangeQuote(_ sender: UIButton) {
-        let randomIndex = Int(arc4random_uniform(5))
-        let quote = quotes[randomIndex]
+        var randomIndex = curIndex
+        while randomIndex == curIndex {
+            randomIndex = Int(arc4random_uniform(5))
+        }
+        
+        curIndex = randomIndex
+        let quote = quotes[curIndex]
         self.lblQuotes.text = quote.contents
         self.lblName.text = quote.name
     }
