@@ -13,6 +13,7 @@
 		5317E48F291A247F0002F01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5317E48D291A247F0002F01C /* Main.storyboard */; };
 		5317E491291A24810002F01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5317E490291A24810002F01C /* Assets.xcassets */; };
 		5317E494291A24810002F01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5317E492291A24810002F01C /* LaunchScreen.storyboard */; };
+		5317E49C291A29F10002F01C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E49B291A29F10002F01C /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5317E490291A24810002F01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5317E493291A24810002F01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5317E495291A24810002F01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5317E49B291A29F10002F01C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5317E490291A24810002F01C /* Assets.xcassets */,
 				5317E492291A24810002F01C /* LaunchScreen.storyboard */,
 				5317E495291A24810002F01C /* Info.plist */,
+				5317E49B291A29F10002F01C /* Task.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5317E49C291A29F10002F01C /* Task.swift in Sources */,
 				5317E48C291A247F0002F01C /* ViewController.swift in Sources */,
 				5317E488291A247F0002F01C /* AppDelegate.swift in Sources */,
 				5317E48A291A247F0002F01C /* SceneDelegate.swift in Sources */,
