@@ -160,13 +160,64 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJM-Zi-Y1S">
-                                <rect key="frame" x="183" y="486" width="49" height="31"/>
+                                <rect key="frame" x="183" y="636" width="49" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="설정"/>
                                 <connections>
                                     <action selector="SaveButton:" destination="Qgf-pC-TiY" eventType="touchUpInside" id="Gd4-ij-pKh"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="P5g-nW-ny7">
+                                <rect key="frame" x="20" y="472" width="205" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="글꼴 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NE-of-gn6">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="Vxh-hV-xyE">
+                                        <rect key="frame" x="0.0" y="35.5" width="205" height="28.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQ7-Ll-oaV">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="28.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="기본">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="TapBackGroundColorButton:" destination="Qgf-pC-TiY" eventType="touchUpInside" id="LEj-Oc-dWY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma0-h8-0Ms">
+                                                <rect key="frame" x="77" y="0.0" width="51" height="28.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Bold">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="TapBackGroundColorButton:" destination="Qgf-pC-TiY" eventType="touchUpInside" id="sL1-1K-pGP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9c-xT-A4A">
+                                                <rect key="frame" x="154" y="0.0" width="51" height="28.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="itelic">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="TapBackGroundColorButton:" destination="Qgf-pC-TiY" eventType="touchUpInside" id="wtv-1J-hrD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1NE-of-gn6" firstAttribute="top" secondItem="P5g-nW-ny7" secondAttribute="top" constant="35" id="6bV-kG-TOf"/>
+                                    <constraint firstAttribute="trailing" secondItem="1NE-of-gn6" secondAttribute="trailing" constant="24" id="6zN-ln-5UV"/>
+                                    <constraint firstItem="1NE-of-gn6" firstAttribute="leading" secondItem="P5g-nW-ny7" secondAttribute="leading" constant="24" id="dEA-on-iXk"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="812-Y6-cFr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
