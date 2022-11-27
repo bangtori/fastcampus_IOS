@@ -13,11 +13,11 @@
 		5317E4B1292F538F0002F01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5317E4AF292F538F0002F01C /* Main.storyboard */; };
 		5317E4B3292F53950002F01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5317E4B2292F53950002F01C /* Assets.xcassets */; };
 		5317E4B6292F53950002F01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5317E4B4292F53950002F01C /* LaunchScreen.storyboard */; };
-		5317E4BE292F6FFB0002F01C /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E4BD292F6FFB0002F01C /* DiaryCell.swift */; };
 		5317E4C0292F702B0002F01C /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E4BF292F702B0002F01C /* StarViewController.swift */; };
 		5317E4C2292F71F30002F01C /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E4C1292F71F30002F01C /* StarCell.swift */; };
 		5317E4C4292F73B10002F01C /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E4C3292F73B10002F01C /* WriteDiaryViewController.swift */; };
 		5317E4C6292F74D90002F01C /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317E4C5292F74D90002F01C /* DiaryDetailViewController.swift */; };
+		53A08A192933266300481604 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A08A182933266300481604 /* DiaryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		5317E4B2292F53950002F01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5317E4B5292F53950002F01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5317E4B7292F53950002F01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5317E4BD292F6FFB0002F01C /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 		5317E4BF292F702B0002F01C /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		5317E4C1292F71F30002F01C /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
 		5317E4C3292F73B10002F01C /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
 		5317E4C5292F74D90002F01C /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		53A08A182933266300481604 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +73,11 @@
 				5317E4B2292F53950002F01C /* Assets.xcassets */,
 				5317E4B4292F53950002F01C /* LaunchScreen.storyboard */,
 				5317E4B7292F53950002F01C /* Info.plist */,
-				5317E4BD292F6FFB0002F01C /* DiaryCell.swift */,
 				5317E4BF292F702B0002F01C /* StarViewController.swift */,
 				5317E4C1292F71F30002F01C /* StarCell.swift */,
 				5317E4C3292F73B10002F01C /* WriteDiaryViewController.swift */,
 				5317E4C5292F74D90002F01C /* DiaryDetailViewController.swift */,
+				53A08A182933266300481604 /* DiaryCell.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 				5317E4AE292F538F0002F01C /* ViewController.swift in Sources */,
 				5317E4C4292F73B10002F01C /* WriteDiaryViewController.swift in Sources */,
 				5317E4C2292F71F30002F01C /* StarCell.swift in Sources */,
+				53A08A192933266300481604 /* DiaryCell.swift in Sources */,
 				5317E4AA292F538F0002F01C /* AppDelegate.swift in Sources */,
 				5317E4AC292F538F0002F01C /* SceneDelegate.swift in Sources */,
 				5317E4C6292F74D90002F01C /* DiaryDetailViewController.swift in Sources */,
-				5317E4BE292F6FFB0002F01C /* DiaryCell.swift in Sources */,
 				5317E4C0292F702B0002F01C /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
